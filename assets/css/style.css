@@ -1,0 +1,13 @@
+.offcanvas-body {
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    flex-direction: column;
+}
+
+.offcanvas {
+    width: 60vw !important;
+    /* padding-left: 100px;
+     */
+
+}
