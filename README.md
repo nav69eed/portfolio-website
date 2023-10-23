@@ -1,61 +1,299 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
+   Naveed | Portfolio          new WOW().init();
 
-<p align="center">
-<a href="https://travis-ci.org/laravel/framework"><img src="https://travis-ci.org/laravel/framework.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/d/total.svg" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/v/stable.svg" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/license.svg" alt="License"></a>
-</p>
+ ![logo image](images/logo.png) aveed
 
-## About Laravel
+*   [Home](#home)
+*   [Skills](#skill)
+*   [Profile](#profile)
+*   [Portfolio](#portfolio)
+*   [Education](#education)
+*   [Contact](#contact)
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+Hi, I am Naveed Akhtar
+----------------------
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+### I am a Specialist
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+Hire Me [Download CV](images/cv/cv.pdf)
 
-## Learning Laravel
+Skills
+------
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+HTML 5
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains over 1500 video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+### 90%
 
-## Laravel Sponsors
+Javascript
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the Laravel [Patreon page](https://patreon.com/taylorotwell).
+### 55%
 
-### Premium Partners
+C Language
 
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Cubet Techno Labs](https://cubettech.com)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[Many](https://www.many.co.uk)**
-- **[Webdock, Fast VPS Hosting](https://www.webdock.io/en)**
-- **[DevSquad](https://devsquad.com)**
-- **[OP.GG](https://op.gg)**
+### 85%
 
-## Contributing
+Laravel (PHP)
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+### 70%
 
-## Code of Conduct
+CSS
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+### 85%
 
-## Security Vulnerabilities
+Wordpress
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+### 75%
 
-## License
+C++
 
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+### 75%
+
+Git
+
+### 95%
+
+My Profiles
+-----------
+
+[
+
+##### LinkedIn
+
+](https://www.linkedin.com/in/naveed-akhtar-b386b2291/)
+
+[
+
+##### LinkedIn
+
+](https://www.linkedin.com/in/naveed-akhtar-b386b2291/)
+
+[
+
+##### Github
+
+](https://github.com/nav69eed)
+
+[
+
+##### Github
+
+](https://github.com/nav69eed)
+
+[
+
+##### Facebook
+
+](https://www.facebook.com/profile.php?id=100083276452151)
+
+[
+
+##### Facebook
+
+](https://www.facebook.com/profile.php?id=100083276452151)
+
+[
+
+##### Instagram
+
+](https://www.instagram.com/naveedakhtar.56/)
+
+[
+
+##### Instagram
+
+](https://www.instagram.com/naveedakhtar.56/)
+
+[
+
+##### Whatsapp
+
+](https://wa.me/+923076594752)
+
+[
+
+##### Whatsapp
+
+](https://wa.me/+923076594752)
+
+##### Twitter
+
+##### Twitter
+
+#### My Work
+
+![Website](https://images.pexels.com/photos/1181449/pexels-photo-1181449.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2)
+
+SEO Website
+
+View Project
+
+Category :- HTML,CSS,Js
+
+![Website](https://images.pexels.com/photos/5940841/pexels-photo-5940841.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2)
+
+Student Management System
+
+[View Project](https://github.com/nav69eed/CPP-CODE/tree/main/CPP%20PROGRAMMING)
+
+Category:- C++ (OOP)
+
+![Website](https://images.pexels.com/photos/6550162/pexels-photo-6550162.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2)
+
+Library Management System
+
+View Project
+
+Category: - C++ (OOP)
+
+![Website](https://images.pexels.com/photos/1398431/pexels-photo-1398431.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2)
+
+Bank Management System
+
+[View Project](https://github.com/nav69eed/CPP-CODE/tree/main/bank)
+
+Category:- C++(OOP)
+
+![Website](https://imagedelivery.net/CWKmKRBT_UKEnKE7IlUMCg/geekflare.com/2023/06/Astra-starter-template.png/w=1500,h=728)
+
+Portfolio (Full Stack)
+
+View Project
+
+Category :- Laravel (PHP)
+
+![Website](https://images.pexels.com/photos/1089306/pexels-photo-1089306.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2)
+
+Flight Reservation System
+
+View Project
+
+Category :- C Language
+
+Education
+---------
+
+#### Daanish School Chishtian, Bahawalnagar
+
+Middle, Matric and ICS
+
+2015 - 2022
+
+#### DigiSkill
+
+Wordpress Expert
+
+2022 - 2022
+
+#### Pakistan Institute of Engineering  
+and Applied Sciences Islamabad
+
+BS Computer and Informaton Science
+
+2022 - 2026
+
+#### LinkedIn Learning
+
+Laravel (PHP) Expert
+
+2023 - 2023
+
+Lets Connect with me
+--------------------
+
+@if (Session::has('success'))
+
+{{ Session::get('success') }}
+
+@endif @if (Session::has('fail'))
+
+{{ Session::get('fail') }}
+
+@endif
+
+### Get in touch
+
+@csrf
+
+Full Name 
+
+@error('name')
+
+{{ $message }}
+
+@enderror
+
+Email Address 
+
+@error('email')
+
+{{ $message }}
+
+@enderror
+
+Phone Number 
+
+@error('subject')
+
+{{ $message }}
+
+@enderror
+
+Message
+
+@error('message')
+
+{{ $message }}
+
+@enderror
+
+Submit
+
+### Let's get in touch
+
+We're open for any suggestion or just to have a chat
+
+Address: Nilore, Islamabad Capital Teritory Pakistan
+
+Phone: [+92 302 4512709](tel://+923024512709)
+
+Email: naveedakhtarnaveed  
+69@gmail.com
+
+Website [nav69eed.github.io](#)
+
+##### Links
+
+*   [Home](/index.html)
+*   [Skills](#skill)
+*   [Pricing](#)
+*   [FAQs](#)
+*   [About](#)
+
+@csrf
+
+##### Lets Connect
+
+@if (Session::has('success2'))
+
+{{ Session::get('success2') }}
+
+@endif @if (Session::has('fail2'))
+
+{{ Session::get('fail2') }}
+
+@endif
+
+Message  Contact
+
+@error('message2')
+
+{{ $message }}
+
+@enderror
+
+© Copyright by Naveed Akhtar
+
+*   [](#)
+*   [](#)
+*   [](#)
+
+var typed = new Typed("#skills", { strings: \[ "Web Developer", "Wordpress Developer", "C++ Programmer", "C Programmer", "Laravel Programmer", \], typeSpeed: 50, smartBackspace: true, loop: true, loopCount: Infinity, });
