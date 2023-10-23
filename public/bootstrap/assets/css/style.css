@@ -1,0 +1,513 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,700;1,500;1,700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  /* --primary:rgb(182, 44, 182); */
+  --primary: white;
+  --secondary: rgb(198, 54, 198);
+  --action: rgb(232, 151, 0);
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+.logo {
+  width: 30px;
+}
+
+.logo-text:hover {
+  color: var(--action);
+}
+
+.logo-text {
+  text-transform: uppercase;
+  font-weight: 500;
+  letter-spacing: 0px;
+  vertical-align: middle;
+  margin-left: -4px;
+}
+
+#nav ul li a:hover {
+  color: var(--action);
+}
+
+#nav ul li a:hover::after {
+  content: "";
+  height: 2px;
+  background-color: var(--action);
+  display: block;
+  width: 0;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  animation: underline 0.75s forwards;
+}
+
+@keyframes underline {
+  0% {
+    width: 0;
+  }
+
+  100% {
+    width: 100%;
+  }
+}
+
+#nav ul li a {
+  color: var(--secondary);
+}
+
+/* #nav ul li a.active {
+    color: var(--action);
+    animation: underline .75s
+  } */
+.navbar-nav .nav-item .active {
+  color: var(--action) !important;
+  /* animation: underline .75s */
+}
+
+#nav {
+  background-color: rgba(255, 255, 255, 0.75) !important;
+  z-index: 1000;
+}
+
+.navbar-nav .nav-item .active::after {
+  content: "";
+  height: 2px;
+  background-color: var(--action);
+  display: block;
+  width: 0;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  animation: underline2 0.75s forwards;
+  animation-iteration-count: 1;
+}
+
+@keyframes underline2 {
+  0% {
+    width: 0;
+  }
+
+  100% {
+    width: 100%;
+  }
+}
+
+.intro > div {
+  height: 450px;
+}
+
+.intro {
+}
+
+.mx-auto {
+}
+
+.intro-left {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  /* align-items: center; */
+}
+
+.name {
+  font-size: 2.5rem;
+  font-weight: 500;
+}
+
+.intro-right {
+  background: url("../../images/arts/intro-section-illustration.png") no-repeat
+    center center/cover;
+}
+
+/*         
+  **************************************************************
+
+                            SKILLS
+
+  ***********************************************************
+  */
+
+.single-skill-content {
+}
+
+.barWrapper {
+}
+
+.progressText {
+  display: block;
+  margin: 10px 5px;
+  color: rgb(96 77 77);
+}
+
+.single-progress-txt {
+  display: flex;
+  align-items: center;
+}
+
+.single-progress-txt h3 {
+  width: 10%;
+  color: var(--secondary);
+  position: relative;
+  top: 4px;
+  font-size: 19px;
+  margin-left: 11px;
+}
+
+.progress {
+  width: 80%;
+  height: 7px;
+  box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+.progress-bar {
+  width: 0;
+  background-color: var(--secondary);
+  /* animation: p-bar 1.5s forwards; */
+  animation-name: customAnimation;
+  animation-fill-mode: forwards;
+  animation-duration: 1.5s;
+  animation-timing-function: ease-in;
+  animation-delay: 0.5s;
+}
+
+@keyframes customAnimation {
+  0% {
+    width: 0%;
+  }
+
+  50% {
+    width: var(--pw/2);
+  }
+
+  100% {
+    width: var(--pw);
+  }
+}
+
+/*
+  *                       PROFILES
+  */
+
+.profile-item i {
+  font-size: 2rem;
+  margin-bottom: 5px;
+}
+
+.profile-item {
+  height: 200px;
+  background-color: var(--primary);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--primary);
+}
+
+.profile-item a {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.profile-item:hover {
+}
+
+.profile-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-gap: 1px;
+  background-color: rgb(158, 153, 153);
+}
+
+.card {
+  transition: all 0.4s;
+  overflow: hidden;
+  border-radius: 0 !important;
+  border: none;
+}
+
+.first-content {
+  height: 100%;
+  width: 100%;
+  transition: all 0.4s;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  opacity: 1;
+}
+
+.card:hover .first-content {
+  height: 0px;
+  opacity: 0;
+}
+
+/* This is the second content of the card. It is hidden by default, and will be shown when the card is hovered over. */
+.second-content {
+  height: 0%;
+  width: 100%;
+  opacity: 0;
+  display: flex;
+  color: white !important;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  background: rgb(131, 58, 180);
+  background: linear-gradient(
+    90deg,
+    rgba(131, 58, 180, 1) 0%,
+    rgba(253, 29, 29, 1) 50%,
+    rgba(252, 176, 69, 1) 100%
+  );
+  transition: all 0.4s;
+
+  transform: rotate(90deg) scale(-1);
+}
+
+.card:hover .second-content {
+  opacity: 1;
+  height: 100%;
+  transform: rotate(0deg);
+}
+
+/*
+                    PORTFOLIO SECTION
+                    */
+
+.project-container {
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-gap: 3px;
+}
+
+.project-item img {
+  height: 100%;
+  width: 100%;
+}
+
+.project-item {
+  height: 200px;
+  overflow: hidden;
+}
+
+.myCard {
+  height: 100%;
+  width: 100%;
+  background-color: transparent;
+  perspective: 1000px;
+}
+
+.innerCard {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+  cursor: pointer;
+}
+
+.myCard:hover .innerCard {
+  transform: rotateY(180deg);
+}
+
+.frontSide,
+.backSide {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  color: white;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.backSide {
+  transform: rotateY(180deg);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.backSide button:hover {
+  color: var(--action) !important;
+  border-color: var(--action);
+}
+
+.backSide::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(198, 54, 198, 0.75);
+  z-index: -1;
+}
+
+/*
+                     PRELOADER
+                     */
+
+.loader-container {
+  height: 100vh;
+  width: 100vw;
+  display: grid;
+  place-items: center;
+}
+.custom-loader {
+  width: 75px;
+  height: 75px;
+  border-radius: 50%;
+  border: 10px solid var(--secondary);
+  animation: s10-1 0.8s infinite linear alternate, s10-2 1.6s infinite linear;
+}
+@keyframes s10-1 {
+  0% {
+    clip-path: polygon(50% 50%, 0 0, 50% 0%, 50% 0%, 50% 0%, 50% 0%, 50% 0%);
+  }
+  12.5% {
+    clip-path: polygon(
+      50% 50%,
+      0 0,
+      50% 0%,
+      100% 0%,
+      100% 0%,
+      100% 0%,
+      100% 0%
+    );
+  }
+  25% {
+    clip-path: polygon(
+      50% 50%,
+      0 0,
+      50% 0%,
+      100% 0%,
+      100% 100%,
+      100% 100%,
+      100% 100%
+    );
+  }
+  50% {
+    clip-path: polygon(
+      50% 50%,
+      0 0,
+      50% 0%,
+      100% 0%,
+      100% 100%,
+      50% 100%,
+      0% 100%
+    );
+  }
+  62.5% {
+    clip-path: polygon(
+      50% 50%,
+      100% 0,
+      100% 0%,
+      100% 0%,
+      100% 100%,
+      50% 100%,
+      0% 100%
+    );
+  }
+  75% {
+    clip-path: polygon(
+      50% 50%,
+      100% 100%,
+      100% 100%,
+      100% 100%,
+      100% 100%,
+      50% 100%,
+      0% 100%
+    );
+  }
+  100% {
+    clip-path: polygon(
+      50% 50%,
+      50% 100%,
+      50% 100%,
+      50% 100%,
+      50% 100%,
+      50% 100%,
+      0% 100%
+    );
+  }
+}
+@keyframes s10-2 {
+  0% {
+    transform: scaleY(1) rotate(0deg);
+  }
+  49.99% {
+    transform: scaleY(1) rotate(135deg);
+  }
+  50% {
+    transform: scaleY(-1) rotate(0deg);
+  }
+  100% {
+    transform: scaleY(-1) rotate(-135deg);
+  }
+}
+
+/*
+==============****
+EDUCATION
+*/
+.education {
+}
+.education-timeline {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+  width: 500px;
+  padding-left: 0;
+}
+.timeline-item::before {
+  content: "";
+  height: 85%;
+  width: 3px;
+  border-radius: 50px;
+  background-color: var(--secondary);
+  position: absolute;
+  top: 21px;
+  left: 0;
+}
+.timeline-item {
+  display: flex;
+  align-items: baseline;
+}
+.timeline-content {
+  text-align: start;
+  margin-left: 15px;
+}
+.timeline-content-line {
+  border: 1.5px solid var(--secondary);
+  width: 40px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+/*
+
+            FORMS
+
+            */
+#newsletter1:active,
+#newsletter1:focus {
+  border-bottom-color: rgb(0, 130, 0) !important ;
+}
+#newsletter1 {
+  border-bottom: 1px solid rgb(169, 167, 167) !important;
+}

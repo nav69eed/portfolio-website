@@ -1,0 +1,78 @@
+.c-s {
+  color: var(--secondary);
+  /* Set the color to the secondary color */
+}
+.c-a {
+  color: var(--action);
+}
+.btn {
+  border: 2px solid transparent;
+  /* Set the border to transparent */
+  background-color: var(--action);
+  /* Set the background color to the action color */
+  color: var(--primary);
+  /* Set the color to the primary color */
+}
+.info-wrap {
+  background-color: var(--secondary);
+  color: rgba(255, 255, 255, 0.8);
+}
+.btn:hover,
+.btn:active {
+  border: 2px solid var(--secondary);
+  /* Set the border to the secondary color */
+  background-color: transparent;
+  /* Set the background color to transparent */
+  color: var(--secondary) !important;
+  /* Set the color to the secondary color with important */
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+/*
+SCROLLBAR
+*/
+/* Firefox */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #752c75 #dfe9eb;
+}
+
+/* Chrome, Edge and Safari */
+*::-webkit-scrollbar {
+  height: 10px;
+  width: 10px;
+}
+*::-webkit-scrollbar-track {
+  border-radius: 5px;
+  background-color: #dfe9eb;
+}
+
+*::-webkit-scrollbar-track:hover {
+  background-color: #b8c0c2;
+}
+
+*::-webkit-scrollbar-track:active {
+  background-color: #b8c0c2;
+}
+
+*::-webkit-scrollbar-thumb {
+  border-radius: 6px;
+  background-color: #752c75;
+}
+
+*::-webkit-scrollbar-thumb:hover {
+  background-color: #9d45a3;
+}
+
+*::-webkit-scrollbar-thumb:active {
+  background-color: #9d45a3;
+}
+
+/*
+  Animated text
+  */
+  
