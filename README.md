@@ -1,6 +1,6 @@
 # My Portfolio
 
-Welcome to my portfolio website! This repository showcases my skills in web development and software engineering. You can visit the live site at [YourPortfolioURL.com](https://www.yourportfoliourl.com).
+Welcome to my portfolio website! This repository showcases my skills in web development and software engineering. You can visit the live site at [YourPortfolioURL.com](https://www.naveed.kesug.com).
 
 ## Table of Contents
 - [Introduction](#introduction)
@@ -42,4 +42,4 @@ To get a copy of this project up and running on your local machine, follow these
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/YourUsername/YourPortfolio.git
+   git clone https://github.com/nav69eed/PORTFOLIO-WEBSITE.git
